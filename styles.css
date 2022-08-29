@@ -1,6 +1,8 @@
 body {
     padding: 0;
     margin: 0;
+    width: 100vw;
+    height: 100vh;
 }
 
 #screensaver {
@@ -11,4 +13,11 @@ body {
     min-height: 100%;
     display: none;
     z-index: 9998;
+    margin: 0;
+    padding: 0;
+}
+
+#screensaver video {
+    height: 100vh;
+    object-fit: cover;
 }

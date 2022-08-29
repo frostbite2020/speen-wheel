@@ -1,7 +1,7 @@
 $(document).ready(function () {
   var mousetimeout;
   var screensaver_active = false;
-  var idletime = 5;
+  var idletime = 30;
   var vid = document.getElementById("video1");
   var current_time = "0:00";
 
